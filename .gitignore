@@ -1,0 +1,41 @@
+# Ignore contents of input and output folders
+input/*
+output/*
+
+# But keep the folders themselves (empty directories)
+!input/.gitkeep
+!output/.gitkeep
+
+# Python related files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+.env
+
+# IDE related files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
